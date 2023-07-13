@@ -5,8 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Test</h1>
-    <p>this is a paragraph</p>
+<body style="background-color: #8e9b8e;">
+    <h1 align = "center"><u>Student Registration Form</u></h1><br>
+    <form>
+        <label>
+            FIRST NAME: <br>
+            <input type="text" name="fname" size="20" maxlength="30">
+        </label>
+        <label> <br>
+            <br>
+            LAST NAME: <br>
+            <input type="text" name="lname" size="20" maxlength="30">
+        </label> <br>
+        <br>
+        <label>DATE OF BIRTH: <br>
+        <input type="date"></label> <br>
+        <br>
+        <label>MOBILE NUMBER: <br>
+            <input type="text" name="mnumber" size="20" maxlength="10">
+        </label><br>
+        <br>
+        <label>
+            GENDER: <br>
+            <input type="radio" name="gender" value="male">
+            Male
+            <input type="radio" name="gender" value="female">
+            Female
+        </label><br>
+        <br>
+        <label>
+            ADDRESS: <br>
+            <textarea name="address" cols="50" rows="8" placeholder="ADD YOUR ADDRESS"></textarea>
+        </label><br>
+        <br>
+        <label>
+            CITY: <br>
+            <input type="text" name="city" size="20" maxlength="20">
+        </label><br>
+        <br>
+        <label>
+            PIN CODE: <br>
+            <input type="password" name="code" size="20" maxlength="6">
+        </label><br>
+        <br>
+        <label>
+            STATE: <br>
+            <input type="text" name="state" size="20" maxlength="30">
+        </label><br>
+        <br>
+        <label>
+            COUNTRY: <br>
+            <input type="text" name="country" size="20" maxlength="30">
+        </label><br>
+        <br>
+        <label>
+            HOBBIES: <br>
+            <input type="checkbox" name="hobby" value="Drawing">
+            Drawing
+            <input type="checkbox" name="hobby" value="Singing">
+            Singing
+            <input type="checkbox" name="hobby" value="Dancing">
+            Dancing
+            <input type="checkbox" name="hobby" value="Skething">
+            Skething
+            <input type="checkbox" name="hobby" value="Others">
+            Others
+        </label><br>
+        <br>
+        <table border="5">
+            <tr>
+                <th rowspan="10">QUALIFICATION</th>
+                <th>Serial No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <td><input type="text" name="Percentage" size="10" maxlength="10"></td>
+                <td><input type="text" name="year" size="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <td><input type="text" name="Percentage" size="10" maxlength="10"></td>
+                <td><input type="text" name="year" size="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <td><input type="text" name="Percentage" size="10" maxlength="10"></td>
+                <td><input type="text" name="year" size="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="Board" size="10" maxlength="10"></td>
+                <td><input type="text" name="Percentage" size="10" maxlength="10"></td>
+                <td><input type="text" name="year" size="10" maxlength="10"></td>
+            </tr>
+        </table>
+        <br>
+        <label>
+            COURSES APPLIED FOR: <br>
+            <input type="checkbox" name="courses" value="BCA">
+            BCA
+            <input type="checkbox" name="courses" value="B.Com">
+            B.Com
+            <input type="checkbox" name="courses" value="B.Sc">
+            B.Sc
+            <input type="checkbox" name="courses" value="BA">
+             BA
+        </label><br>
+<br>
+        <input type="submit" value="submit">
+        <input type="submit" value="reset">
+    </form>
+    
 </body>
 </html>
